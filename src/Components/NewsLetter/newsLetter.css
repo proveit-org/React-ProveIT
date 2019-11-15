@@ -1,0 +1,103 @@
+.newsLetterImage {
+  width: 100%;
+  /* animation-name: rightToLeft; */
+  /* animation-duration: 2s; */
+}
+.textFieldFName {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #00bcdf;
+  font-size: 35px;
+  padding: 2% 0% 2% 1%;
+  font-weight: 400;
+  color: #858686;
+  outline: none;
+  /* animation-name: leftToRight;
+  animation-duration: 2s; */
+  background: transparent;
+}
+.textFieldLName {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #00bcdf;
+  font-size: 35px;
+  padding: 2% 0% 2% 1%;
+  font-weight: 400;
+  color: #858686;
+  outline: none;
+  /* animation-name: leftToRight;
+  animation-duration: 2s; */
+  background: transparent;
+}
+.textFieldEmail {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #00bcdf;
+  font-size: 35px;
+  padding: 2% 0% 2% 1%;
+  font-weight: 400;
+  color: #858686;
+  outline: none;
+  /* animation-name: leftToRight;
+  animation-duration: 2s; */
+  background: transparent;
+}
+::placeholder{
+  color: rgb(143, 143, 143);
+  font-size: 20px;
+}
+.subcribeButton {
+  background-color: transparent;
+  width: 100%;
+  color: #17bcde;
+  border-radius: 30px;
+  font-size: 35px;
+  padding: 3px;
+  outline: none;
+  /* animation-name: animateSubscribeBtn;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards; */
+  border: 2px solid #17bcde;
+}
+.subcribeButton:hover {
+  color: #ffffff;
+  background-color: #17bcde;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes animateSubscribeBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

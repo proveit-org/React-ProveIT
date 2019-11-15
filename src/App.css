@@ -1,0 +1,22 @@
+body{
+    overflow-x: hidden;
+}
+
+button:hover{
+    background-color: rgb(235, 231, 231);
+}
+
+div{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 900px){
+    .home-bg{
+        background: url("./Assets/Logo/top-background.jpg") top no-repeat, url("./Assets//Logo/bottom-background.jpg") bottom no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

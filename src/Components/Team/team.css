@@ -1,0 +1,73 @@
+.teamSpan {
+  background-color: #17bcde;
+  width: 100%;
+  color: #ffffff;
+  border-radius: 30px 0px 30px 0px;
+  font-size: 35px;
+  padding: 3px;
+  font-weight: 600;
+  /* animation: teamUpToDown 2s; */
+}
+
+.teamSpan:hover {
+  color: #ffffff;
+  background-color: #17bcde;
+}
+
+.teamImage {
+  border-radius: 400px;
+  width: 200px;
+}
+
+.teamName {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0d0a0e;
+}
+
+.teamDesc {
+  font-size: 18px;
+  color: #1c1e1c;
+}
+
+/* .teamFirstRow {
+  animation: moveTeamLeftToRight 2s;
+}
+.teamSecondRow {
+  animation: moveTeamRightToLeft 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+} */
+
+@keyframes teamUpToDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveTeamLeftToRight {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveTeamRightToLeft {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

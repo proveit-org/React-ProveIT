@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: -8px 0 0 10px;
+}
+
+.brand{
+    margin: 0 0 0 1.5%;
+    size: 100%;
+}
+
+.link-style:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+#banner{
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    min-height: 95vh;
+}
+/* 
+#tab{
+     margin-top: 170px; 
+    margin-bottom: 100px;
+} */
+
+#about{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#team{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#metaverse{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#newsletter{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 899px){
+    .bg-color{
+        background-color: #00BCDF;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .display{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .logo{
+        height: 30px;
+        width: 30px;
+        float: left;
+        margin: -20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .logo{
+    margin: -20px 0 0 -20px;
+    }
+    #tab{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}

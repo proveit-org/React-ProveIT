@@ -1,0 +1,83 @@
+.btn-verify {
+  /* background-color: #ffffff;
+  width: 100%;
+  color: #17bcde;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 3%;
+  border: 2px solid #00bcdf; */
+  background-color: #ffffff;
+  width: 100%;
+  color: #17bcde;
+  border-radius: 8px;
+  font-size: 25px;
+  padding: 3%;
+  border: 2px solid #17bcde;
+}
+
+.btn-verify:hover {
+  background-color: #00bcdf;
+  color: #ffffff;
+}
+
+.btn-create {
+  background-color: #ffffff;
+  width: 100%;
+  color: #17bcde;
+  border-radius: 30px;
+  font-size: 45px;
+  padding: 3px;
+  border: 2px solid #17bcde;
+}
+
+.btn-create:hover {
+  background-color: #17bcde;
+  color: #ffffff;
+}
+
+.btn-create-disabled {
+  background-color: #f2efef;
+  width: 100%;
+  color: #6f7275;
+  border-radius: 30px;
+  font-size: 35px;
+  padding: 3px;
+  border: 2px solid rgb(180, 180, 180);
+}
+.btn-create-disabled:hover {
+  background-color: #f2efef;
+  color: #6f7275;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+#Verify-tab {
+  font-size: 28px;
+  color: #000000;
+}
+
+#Verify-tab:hover {
+  background-color: #17bcde;
+  color: white;
+}
+
+#Create-tab {
+  font-size: 28px;
+  color: #000000;
+}
+
+#Create-tab:hover {
+  background-color: #17bcde;
+  color: white;
+}
+
+.file {
+  cursor: pointer;
+  background-color: #11628c;
+  color: #ffffff;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+}
+
+.file:hover {
+  background-color: #52859e;
+}
